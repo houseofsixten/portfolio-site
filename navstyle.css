@@ -1,0 +1,17 @@
+﻿body
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+div.outer-container {
+    width: 100%;
+    background-color: black;
+}
+
+div.inner-container {
+    margin: 30px;
+    padding: 20px;
+    background-color: darkseagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
