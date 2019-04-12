@@ -5,15 +5,36 @@
     <meta charset="utf-8" />
     <title>git index test</title>
 
-    <link rel="stylesheet" type="text/css" href="./navstyle.css"/>
+    <link rel="stylesheet" type="text/css" href="./navstyle.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
 </head>
 <body>
 
     <div class="outer-container">
         <div class="inner-container">
-            This is our 5/4 song
+            <div class="picture-holder">
+                <img src="./images/isuzu.jpg" />
+                <img src="./images/katori.jpg" />
+                <img src="./images/sakawa.jpg" />
+                <img src="./images/yamagumo.jpg" />
+                <img src="./images/yubari.jpg" />
+            </div>
+
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+
+      $(document).on('ready', function () {
+          $(".picture-holder").slick({
+            dots: true
+          });
+      });
+
+    </script>
 
 </body>
 </html>
